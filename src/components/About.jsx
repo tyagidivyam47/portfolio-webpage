@@ -14,7 +14,7 @@ export const About = () => {
         open-source projects.
       </p>
     <ScrollIntoView selector="#tech">
-        <div className="mx-auto p-16">
+        <div className="mx-auto p-16 cursor-pointer">
             <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
         </div>
     </ScrollIntoView>

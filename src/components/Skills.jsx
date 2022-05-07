@@ -43,13 +43,12 @@ export const Skills = () => {
             Android Development
           </p>
         </div>
-
-        <ScrollIntoView selector="#contactme">
-          <div className="mx-auto p-16">
-            <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
-          </div>
-        </ScrollIntoView>
       </div>
+      <ScrollIntoView selector="#contactme">
+        <div className="mx-auto p-16 cursor-pointer">
+          <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
+        </div>
+      </ScrollIntoView>
     </div>
   );
 };
