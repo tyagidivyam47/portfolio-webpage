@@ -2,7 +2,7 @@ import React from "react";
 import profilePic from "../images/image.jpg";
 import { DiGithubBadge } from "react-icons/di";
 // import {GrAd} from "react-icons/gr"
-import {FaInstagramSquare, FaFacebookSquare, FaEnvelope, FaLinkedin} from "react-icons/fa"
+import {FaInstagramSquare, FaEnvelope, FaLinkedin} from "react-icons/fa"
 
 export const Card = () => {
   return (
